@@ -177,7 +177,6 @@ summary_file = fullfile(results_dir,'run_summary.txt');
 fid = fopen(summary_file,'w');
 if fid ~= -1
     fprintf(fid,'Functional-Edged Network Modeling simulation summary\n');
-    fprintf(fid,'Random seed: %d\n',rng_seed);
     fprintf(fid,'Replications: %d\n',rep);
     fprintf(fid,'Tensor dimensions: %d x %d x %d\n',n,m,length(seqtime));
     fprintf(fid,'Tucker rank: [%d, %d, %d]\n',r(1),r(2),r(3));
