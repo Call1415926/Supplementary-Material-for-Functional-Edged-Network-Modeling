@@ -344,3 +344,7 @@ The implementation is organized so that the root directory contains only the
 user-facing driver and documentation. Backend functions are separated by role,
 and third-party software is isolated under `external/`, making the execution
 path and the connection between the manuscript and implementation explicit.
+
+
+Finally, `fitting_results_of_RSSI.zip` contains the full set of fitted results for the industrial IoT RSSI case study, including model outputs and intermediate fitting quantities used in the corresponding analysis.
+
