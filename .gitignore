@@ -1,0 +1,7 @@
+results/*.mat
+results/*.fig
+results/*.png
+results/run_summary.txt
+*.asv
+.DS_Store
+__MACOSX/
